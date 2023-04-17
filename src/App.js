@@ -1,21 +1,13 @@
-import './App.css';
-// import React from 'react';
-import home from './images/home.png';
-import event from './images/events.png';
+import "./App.css";
+import React from "react";
+import Home from "./Pages/Home";
+import Login from "./Pages/Login";
+
 function App() {
   return (
-    <div className='navbar'>
-      <div className='logo'>CodeShows</div>
-      <div className='menu'>
-        <div className='home'>
-          <img src={home} alt=''></img>
-          <p>Home</p>
-          <div className='events'>
-            <img src={event} alt=''></img>
-          </div>
-        </div>
-      </div>
-    </div>
+    <>
+      <Home />
+    </>
   );
 }
 

@@ -1,0 +1,77 @@
+.bit {
+  background: linear-gradient(315.43deg, #c0cbd8 7.2%, #e2eefc 87.54%);
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+.small {
+  height: 80vh;
+  width: 80vw;
+  background: #f0f4f7;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.harshit {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 50%;
+  flex-direction: column;
+  gap: 20px;
+}
+.com {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.robo {
+  width: 80%;
+  height: auto;
+  max-height: 95%;
+}
+.put {
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  width: 80%;
+  height: 3rem;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 2rem;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.2);
+  background-color: #f0f4f7;
+}
+.continue-btn {
+  background: rgba(192, 203, 216, 0.7);
+  border-radius: 10px;
+  display: flex;
+  font-size: 1.25rem;
+  padding-left: 50px;
+  padding-right: 50px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
