@@ -14,28 +14,37 @@ import ellipse from "../images/Ellipse 1.png";
 import Robo from "../images/robot.png";
 import bore from "../images/bore.png";
 import logo from "../images/logo .png";
+import { Link } from "react-router-dom";
 export default function Home() {
 	return (
 		<>
 			<div className="navbar">
 				<div className="logo">CodeShows</div>
 				<div className="menu">
-					<div className="home">
-						<img className="h" src={home} alt=""></img>
-						<p>Home</p>
-					</div>
-					<div className="events">
-						<img className="h" src={event} alt=""></img>
-						<p>Event</p>
-					</div>
-					<div className="blogs">
-						<img className="h" src={blogs} alt=""></img>
-						<p>blogs</p>
-					</div>
-					<div className="login">
-						<img className="h" src={login} alt=""></img>
-						<p>login</p>
-					</div>
+					<Link to="/">
+						<div className="home">
+							<img className="h" src={home} alt=""></img>
+							<p>Home</p>
+						</div>
+					</Link>
+					<Link to="/events">
+						<div className="events">
+							<img className="h" src={event} alt=""></img>
+							<p>Event</p>
+						</div>
+					</Link>
+					<Link to="/blog">
+						<div className="blogs">
+							<img className="h" src={blogs} alt=""></img>
+							<p>blogs</p>
+						</div>
+					</Link>
+					<Link to="/login">
+						<div className="login">
+							<img className="h" src={login} alt=""></img>
+							<p>login</p>
+						</div>
+					</Link>
 				</div>
 			</div>
 			<img className="blob1" src={Vector}></img>
