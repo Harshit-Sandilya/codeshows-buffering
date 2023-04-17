@@ -1,19 +1,19 @@
 import "../Styles/Home.css";
-import home from "../Images/home.png";
-import event from "../Images/events.png";
-import blogs from "../Images/blogs.png";
-import login from "../Images/login.png";
-import Vector from "../Images/Vector.png";
-import code from "../Images/code.png";
-import fb from "../Images/fb.png";
-import twitter from "../Images/twitter.png";
-import g from "../Images/g.png";
-import lin from "../Images/in.png";
-import v2 from "../Images/v2.png";
-import ellipse from "../Images/Ellipse 1.png";
-import Robo from "../Images/robot.png";
-import bore from "../Images/bore.png";
-import logo from "../Images/logo .png";
+import home from "../images/home.png";
+import event from "../images/events.png";
+import blogs from "../images/blogs.png";
+import login from "../images/login.png";
+import Vector from "../images/Vector.png";
+import code from "../images/code.png";
+import fb from "../images/fb.png";
+import twitter from "../images/twitter.png";
+import g from "../images/g.png";
+import lin from "../images/in.png";
+import v2 from "../images/v2.png";
+import ellipse from "../images/Ellipse 1.png";
+import Robo from "../images/robot.png";
+import bore from "../images/bore.png";
+import logo from "../images/logo .png";
 export default function Home() {
   return (
     <>

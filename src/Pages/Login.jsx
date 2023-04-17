@@ -1,5 +1,5 @@
 import "../Styles/Login.css";
-import robo from "../Images/com.png";
+import robo from "../images/com.png";
 export default function Login() {
   return (
     <>
