@@ -6,17 +6,17 @@ import Login from "./Pages/Login";
 import Blog from "./Pages/Blog";
 
 function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/">
-          <Route index element={<Home />} />
-          <Route path="login" element={<Login />} />
-          <Route path="blog" element={<Blog />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
-  );
+	return (
+		<BrowserRouter>
+			<Routes>
+				<Route path="/">
+					<Route index element={<Home />} />
+					<Route path="login" element={<Login />} />
+					<Route path="blog" element={<Blog />} />
+				</Route>
+			</Routes>
+		</BrowserRouter>
+	);
 }
 
 export default App;
